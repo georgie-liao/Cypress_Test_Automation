@@ -1,8 +1,6 @@
 export class registerPage{
 
     weblocators = {
-        myAccountTb:'a[title="My Account"] span[class="hidden-xs hidden-sm hidden-md"]',
-
         firstName:'#input-firstname',
         lastName:'#input-lastname',
         email: '#input-email',
