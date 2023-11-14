@@ -4,11 +4,13 @@
   "description": "E2E test automation using Cypress.",
   "main": "index.js",
   "scripts": {
+    "test:PlaceOrder": "npx cypress run --spec cypress/e2e/tests/orderTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "George L",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.5.0"
+    "cypress": "^13.5.0",
+    "cypress-mochawesome-reporter": "^3.6.1"
   }
 }
