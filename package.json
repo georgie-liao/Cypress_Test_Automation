@@ -4,6 +4,7 @@
   "description": "E2E test automation using Cypress.",
   "main": "index.js",
   "scripts": {
+    "test:registerTest": "npx cypress run cypress/e2e/tests/registerTest.cy",
     "test:placeOrderTest": "npx cypress run cypress/e2e/tests/orderTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
