@@ -1,10 +1,8 @@
 # Ignore node_modules directory
 node_modules/
 
-# Ignore Cypress binary cache
-Cypress/
-
-# Ignore generated videos and screenshots
+# Ignore test reports, videos and screenshots
+cypress/reports/
 cypress/videos/
 cypress/screenshots/
 

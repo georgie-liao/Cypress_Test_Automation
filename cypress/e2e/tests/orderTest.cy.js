@@ -17,5 +17,5 @@ describe('Place Order Tests', () => {
         orderPageObj.verifySucessMessage().should('contain', testData.message.successMessage).and('contain', testData.product.productName)
     })
 
-    //To do: add test for placing order
+    //To do: add test for placing order.
 })
