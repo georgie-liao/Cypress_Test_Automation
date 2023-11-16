@@ -4,6 +4,7 @@ import registerData from '../../fixtures/registerData.json'
 
 describe('register testing', () => {
 
+    //Register a user
     it('register new user', () => {
         registerObj.openRegisterPage()
         registerObj.enterFirstName(registerData.firstName)

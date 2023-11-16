@@ -3,14 +3,19 @@ const orderPageObj = new orderPage()
 import testData from '../../fixtures/testData.json'
 
 
-describe(' test automation', () => {
+describe('Place Order Tests', () => {
+
+    //Hook: user login before performing tests
     before(() => {
         cy.login(testData.login.username, testData.login.password)
     })
 
-    it('Add To Cart flow', () => {
+    //Search for a product then add it to the cart
+    it('Add Product To Cart', () => {
         orderPageObj.searchProduct(testData.product.productName)
         orderPageObj.addToCart()
-        orderPageObj.verifySucessMessage().should('contain', testData.message.successMessage).and('contain', testData.product.productName);
+        orderPageObj.verifySucessMessage().should('contain', testData.message.successMessage).and('contain', testData.product.productName)
     })
+
+    //To do: add test for placing order
 })
