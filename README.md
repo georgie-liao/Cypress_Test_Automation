@@ -15,12 +15,20 @@ Cypress: A morden test automation tool for web applications.
 JavaScript: The scripting language used for this test suite.
 
 Project Structure:
+
 .github\workflows: github CI/CD pipelines yml files
+
 cypress\e2e\tests: test used in the tests.
+
 cypress\fixtures: Test data used in the tests.
+
 cypress.config.js: configuration file for the test suite.
+
 cypress\support\commands.js: Commands used in the tests.
+
 pages: pages with element locators and actions written in Page Object Model (POM).
+
 cypress-mochawesome-reporter: test report used in this test suite.
+
 
 ---end---
