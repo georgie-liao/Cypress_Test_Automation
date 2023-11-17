@@ -12,6 +12,12 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
             command: npm run test:registerTest
+      
+      - name: Cypress Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Mochawesome HTML Report - Register Test
+          path: cypress/reports/html
 
 
   Register-Test-run:
@@ -25,3 +31,9 @@ jobs:
        uses: cypress-io/github-action@v6
        with:
            command: npm run test:placeOrderTest
+
+     - name: Cypress Test Report
+       uses: actions/upload-artifact@v3
+       with:
+        name: Mochawesome HTML Report - Place Order Test
+        path: cypress/reports/html
