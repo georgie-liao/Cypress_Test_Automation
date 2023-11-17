@@ -10,6 +10,8 @@
     },
     "message":
     {
-      "successMessage": "Success: You have added MacBook to your shopping cart!"
+      "successMessage": "Success: You have added MacBook to your shopping cart!",
+      "registerFailedMessage": " Warning: E-Mail Address is already registered!",
+      "registerSuccessfulMessage": "Your Account Has Been Created!"
     }   
   }

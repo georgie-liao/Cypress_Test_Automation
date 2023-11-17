@@ -10,6 +10,8 @@ export class registerPage{
         passwordConfirm: '#input-confirm',
         policyCheckbox: 'input[type="checkbox"]',
         continueBtn: '.btn.btn-primary',
+        alertMessage: '.alert.alert-danger.alert-dismissible',
+        successMessage: 'div[id="content"] h1'
     }
 
     //Open register page
@@ -51,5 +53,15 @@ export class registerPage{
     //Cilck continue button to submit register
     clickOnContinue() {
         cy.get(this.weblocators.continueBtn).click()
-    }       
+    } 
+    
+    //Verify register failed alert message
+    verifyAlertMessage() {
+        return cy.get(this.weblocators.alertMessage)
+    }
+
+    //Verify register successful message
+    verifySuccessfulMessage() {
+        return cy.get(this.weblocators.successMessage)
+    }
 }
