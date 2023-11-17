@@ -17,7 +17,6 @@ export class orderPage {
 
     //Add a product to cart
     addToCart() {
-
         cy.contains(this.weblocators.addtocart).first().click()
     }
 
