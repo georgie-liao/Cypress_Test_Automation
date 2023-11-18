@@ -1,17 +1,21 @@
 {
-    "login": 
-    {
-      "username": "george.l@test.com",
-      "password": "p@ssword123!"
-    },
-    "product": 
-    {
-      "productName": "MacBook"
-    },
-    "message":
-    {
-      "successMessage": "Success: You have added MacBook to your shopping cart!",
-      "registerFailedMessage": " Warning: E-Mail Address is already registered!",
-      "registerSuccessfulMessage": "Your Account Has Been Created!"
-    }   
+  "register": {
+    "firstName": "George",
+    "lastName": "L",
+    "email": "george.l@test.com",
+    "telephone": "123456789",
+    "password": "p@ssword123!"
+  },
+  "login": {
+    "email": "george.l@test.com",
+    "password": "p@ssword123!"
+  },
+  "product": {
+    "productName": "MacBook"
+  },
+  "message": {
+    "successMessage": "Success: You have added MacBook to your shopping cart!",
+    "registerFailedMessage": " Warning: E-Mail Address is already registered!",
+    "registerSuccessfulMessage": "Your Account Has Been Created!"
   }
+}
