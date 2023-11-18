@@ -6,7 +6,7 @@
   "scripts": {
     "test:registerTest": "npx cypress run cypress/e2e/tests/registerTest.cy",
     "test:placeOrderTest": "npx cypress run cypress/e2e/tests/orderTest.cy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426"
   },
   "author": "George L",
   "license": "ISC",
