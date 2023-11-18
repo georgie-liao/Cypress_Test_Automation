@@ -4,8 +4,9 @@
   "description": "E2E test automation using Cypress.",
   "main": "index.js",
   "scripts": {
-    "test:registerTest": "npx cypress run cypress/e2e/tests/registerTest.cy.js --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426",
-    "test:placeOrderTest": "npx cypress run cypress/e2e/tests/orderTest.cy.js --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426",
+    "test:registerTest": "npx cypress run cypress/e2e/tests/001-registerTest.cy.js --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426",
+    "test:loginTest": "npx cypress run cypress/e2e/tests/002-loginTest.cy.js",
+    "test:placeOrderTest": "npx cypress run cypress/003-orderTest.cy.js --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426",
     "test": "npx cypress run --record --key 10e9aa03-b3e6-4f8b-9d2e-b02b471c9426"
   },
   "author": "George L",

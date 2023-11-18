@@ -25,7 +25,7 @@ export class registerPage{
     }
 
     //Enter last name
-    enterlastName(LName) {
+    enterLastName(LName) {
         cy.get(this.weblocators.lastName).type(LName)
     }
 
@@ -46,12 +46,12 @@ export class registerPage{
     }
 
     //Tick the checkbox
-    selectCheckbox() {
+    tickCheckbox() {
         cy.get(this.weblocators.policyCheckbox).check()
     }
 
     //Cilck continue button to submit register
-    clickOnContinue() {
+    clickContinue() {
         cy.get(this.weblocators.continueBtn).click()
     } 
     

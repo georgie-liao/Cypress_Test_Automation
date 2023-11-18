@@ -2,8 +2,6 @@
 
 
 ---
-Description:
-
 Overview
 
 Cypress_Test_Automation is a comprehensive test automation framework developed using Cypress, featuring a customized hybrid test architecture. This framework integrates the Cypress.io automation tool with Page Object Model (POM), Data-Driven, and Keyword-Driven approaches. Primarily designed for demonstrating best practices, the suite rigorously tests fundamental functionalities of the Open Cart application (https://naveenautomationlabs.com/opencart/).
@@ -14,9 +12,11 @@ Key Features
 
 This test automation suite covers various end-to-end scenarios:
 
-001.registerTest.
+001-registerTest: Register User Tests - positive testing using valid data, negative testing using invalid data.
 
-002.orderTest.
+002-loginTest: User Login Tests - positive testing using valid data, negative testing using invalid data.
+
+003-orderTest: Placing Order Tests.
 
 ...more tests are to be added...
 

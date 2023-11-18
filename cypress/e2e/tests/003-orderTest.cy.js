@@ -7,7 +7,7 @@ describe('Place Order Tests', () => {
 
     //Hook: user login before performing tests
     before(() => {
-        cy.login(testData.login.username, testData.login.password)
+        cy.login(testData.login.email, testData.login.password)
     })
 
     //Search for a product then add it to the cart
