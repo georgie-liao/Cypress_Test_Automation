@@ -1,41 +1,56 @@
 # Cypress_Test_Automation
-Test automation using Cypress with JavaScript, Page Obejct Model (POM).
+
+
 ---
 Description:
-The Cypress_Test_Automation is a test automation framework that utilizes a customized hybrid test architecture, incorporating the Cypress.io automaiton framework Page Object Model (POM), Data-Driven, and Keyword-Driven approaches. The suite rigorously tests the fundamental functionalities of the Open Cart application (https://naveenautomationlabs.com/opencart/) and is primarily designed for demonstration purposes.
+
+Overview
+
+Cypress_Test_Automation is a comprehensive test automation framework developed using Cypress, featuring a customized hybrid test architecture. This framework integrates the Cypress.io automation tool with Page Object Model (POM), Data-Driven, and Keyword-Driven approaches. Primarily designed for demonstrating best practices, the suite rigorously tests fundamental functionalities of the Open Cart application (https://naveenautomationlabs.com/opencart/).
+
 
 ---
-These tests cover end-to-end scenarios:
+Key Features
 
-001.registerTest: User Registration Tests
+This test automation suite covers various end-to-end scenarios:
 
-002.orderTest: Place Orders Tests
+001.registerTest.
 
-...more tests are being added...
+002.orderTest.
+
+...more tests are to be added...
+
 
 ---
-Test Automation Tools:
+Tools and Dependencies
 
-Cypress: A morden test automation tool for web applications.
+Cypress.io: A modern test automation tool for web applications.
 
-JavaScript: The scripting language used for this test suite.
+Cypress Cloud: Enables running tests in a browser to scale test runs, replay tests, debug failed tests, and enhance CI integration.
+
+GitHub: Utilized for Git version control and CI/CD pipeline.
+
+JavaScript: The scripting language employed for this test suite.
+
+Mochawesome Reporter: Generates HTML reports for detailed test results.
+
+Fakerjs: Facilitates the generation of dynamic test data.
+
 
 ---
-Project Structure:
+Project Structure
 
-.github\workflows: github CI/CD pipelines yml files
+.github/workflows/: GitHub CI/CD pipeline configuration.
 
-cypress\e2e\tests: test used in the tests.
+cypress/e2e/tests/: Contains test scripts for various scenarios.
 
-cypress\fixtures: Test data used in the tests.
+cypress/fixtures/: Stores test data used in the test cases.
 
-cypress.config.js: configuration file for the test suite.
+cypress.config.js: Configuration file for the test suite.
 
-cypress\support\commands.js: Commands used in the tests.
+cypress/support/commands.js: Centralized location for custom commands used in the tests.
 
-pages: pages with element locators and actions written in Page Object Model (POM).
+pages/: Includes pages with element locators and actions, organized in the Page Object Model (POM) fashion.
 
-cypress-mochawesome-reporter: test report used in this test suite.
+cypress-mochawesome-reporter: Utilized for generating and viewing detailed test reports.
 
-
----end---

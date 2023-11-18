@@ -2,6 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
+  projectId: "88v33f",
+  video: true,
+
   reporter: 'cypress-mochawesome-reporter',
 
   e2e: {
