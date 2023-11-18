@@ -12,9 +12,11 @@ Key Features
 
 This test automation suite covers various end-to-end scenarios:
 
-001.registerTest.
+001-registerTest: Register User Tests - positive testing using valid data, negative testing using invalid data.
 
-002.orderTest.
+002-loginTest: User Login Tests - positive testing using valid data, negative testing using invalid data.
+
+003-orderTest: Placing Order Tests.
 
 ...more tests are to be added...
 

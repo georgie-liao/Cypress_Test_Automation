@@ -6,11 +6,11 @@ const loginObj = new loginPage()
 describe('Login testing', () => {
 
     /*
-    Postive Testing: 
+    Positive Testing: 
     1. Login should  be successful with valid credential and the web page should switch to the User Account page.
     2. Logout should  be successful when clicking on the Logout button and the web page should switch to the Home page.
     */
-    it('Postive Testing', () => {
+    it('Positive Testing', () => {
         loginObj.openLoginPage()
         loginObj.enterEmail(testData.login.email)
         loginObj.enterPassword(testData.login.password)

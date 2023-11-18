@@ -6,10 +6,10 @@ const registerObj = new registerPage()
 describe('register testing', () => {
 
     /*
-    Postive Testing: Register using faker dynamicly generated account should success and there should be a message:  
+    Positive Testing: Register using faker dynamicly generated account should success and there should be a message:  
     "Your Account Has Been Created!"
     */
-    it('Postive Testing', () => {
+    it('Positive Testing', () => {
         //create passwrod variable so it can be used for both password and confirm password inputs.
         let password = faker.internet.password();
 
